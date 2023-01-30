@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='utf-8'>
+		<title>MIDI Viewer</title>
+
+		<script src="/lib/MidiConvert.js"></script>
+		<script src="/lib/svg.js"></script>
+	</head>
+	<div id="viewer"></div>
+
+	<input id="file" type='file' accept='.mid, .midi'>
+	
+	<button id="button">Play</button>
+	<input id="range" type='range' defaultValue=0 min=0 max=0 step=0.01 disabled=true>
+
+	<div id="colorInput"></div>
+	
+	<script src="scripts.js"></script>
+</html>
